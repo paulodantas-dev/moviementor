@@ -1,4 +1,4 @@
-import { Home } from "./home/Home";
-import { Movie } from "./movie/Movie";
+import { Home } from "./Home";
+import { Movie } from "./Movie";
 
 export { Home, Movie };

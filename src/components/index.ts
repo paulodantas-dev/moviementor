@@ -1,5 +1,5 @@
-import { Layout } from "./layout/Layout";
-import { Header } from "./header/Header";
-import { Card } from "./card/Card";
+import { Layout } from "./Layout";
+import { Header } from "./Header";
+import { Card } from "./Card";
 
 export { Layout, Header, Card };
