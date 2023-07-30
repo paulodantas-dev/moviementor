@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 *,
@@ -9,7 +9,13 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 @tailwind components;
+.bg-gradient {
+  background: linear-gradient(90deg, #9f55ff 0%, #ff46b9 100%);
+}
+.bg-buttom-gradient {
+  background: linear-gradient(90deg, #8323ff 0%, #ff2daf 100%);
+}
 @tailwind utilities;
